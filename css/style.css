@@ -1,4 +1,4 @@
-
+/* general */
 
 body {
   
@@ -19,8 +19,9 @@ html {
 
 }
 
+/*--------------------- index---------------------- */
 
-img { /* Logo */
+.logo { 
     width: 150px;
     margin: auto;
     background-position: center;
@@ -72,7 +73,9 @@ a{
     }
 }
 
-.Titulos {  /* general */
+
+
+.Titulos {  
     color: black;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -85,36 +88,40 @@ a{
 }
 
 
-/* index */
+/*--------------------- index---------------------- */
 
 @keyframes mi-animacion {
     0% {
-        width: 500px;
-        background:url(../mult/facturas.jpg)
+        width: 100px;
+        background: salmon;
+        color: white;
     }
     50% {
-        width: 700px;
-        background: url(../mult/pasteleria-mallorca-m.jpg)
+        width: 1000px;
+        background: lightpink;
+        color: white;
     }
     100% {
         width: 1400px;
-        background: url(../mult/macarons.jpg)
+        background: white;
+        color: salmon;
     }
     
 }
 
 div.animation {
-    width: 1400px;
+    width: 1447px;
     height: 100px;
-    background: url(../mult/macarons.jpg);
+    background: white;
     background-size: cover;
     animation-name: mi-animacion;
     animation-delay: 1s;
     animation-iteration-count:initial;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-delay: 10;
     text-align: center;
     padding: 10px;
+    color: salmon;
 }
 
 .flex-valoraciones {
@@ -131,29 +138,38 @@ align-items: center;
     
 }
 
-.Productos { /* Productos */
+/*--------------------------------- Productos ---------------------------*/
+
+.Productos { 
     display: grid;
-    grid-template-rows:auto;
+    grid-template-rows: auto;
+  
+    
 }
 
 .grid-area {
 display: grid;
     grid-template-areas:
      "header header header"
-     "main main productos"
+     "main main main"
      "footer footer footer";
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(3, 2fr);
    gap: 10px;
+ color: salmon;
+   
 }
 
 .grid-area {
    text-align: center;
-   font-size: 12px;
+   font-size: 15px;
 
 }
 
 .grid-img{
-    border: 1px solid black;
+
+    border: 1px solid salmon;
+
+
 }
 
 @media (max-width: 550px) {
@@ -163,8 +179,22 @@ display: grid;
     }
 }
 
+.botones {
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+}
 
-table { /* Promociones */
+/* --------------------------------Promociones -----------------------*/
+
+
+.cuotas {
+    background-position: center;
+    width: 1400px;
+    height: 500;
+}
+
+table { 
   
     padding: 50px 100px 100px 200px; 
     border: black;
@@ -174,9 +204,10 @@ table { /* Promociones */
     
 }
 
+/*--------------------------- Recetas ---------------------*/
 
-.flex-recetas { /* Recetas */
-    background-color: lightpink;
+.flex-recetas { 
+    background-color: white;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -191,10 +222,24 @@ table { /* Promociones */
     background-position: center;
  }
 
+/* ----------------contacto --------------------*/
 
-
-fieldset { /* contacto */
+fieldset { 
     background-image: url(../mult/form2.jpg);
     background-size: cover;
 }
 
+/*------------------ footer -------------------*/
+.flex-footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    }
+    
+    .box-footer {
+        background-position: center;
+        margin: 120px;
+    }
