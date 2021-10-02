@@ -33,18 +33,19 @@ html {
 
 nav,ul { /* Menú */
 border: 2px;
+
 }
 
 .block, li  {
     border: 2px solid  white;
-    width: 1000px;
+    width: 1400px;
     height: 50px;
     padding: 10px;
     background-image: url(../mult/rosa-resumen-antecedentes-lineas-verticales-diseno-grafico-vectorial_1164-1438.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    margin: 15px;
+    margin: 10px;
     font-size: 20px;
     
     
@@ -58,6 +59,7 @@ ul {
     order: 1;
     list-style: none;
     text-decoration: white;
+    padding: 0%;
 }
 
 a{
@@ -65,13 +67,39 @@ a{
     
 }
 
-@media (max-width: 550px) {
-    ul {
-        display: flex;
-        flex-direction: column;
+@media (max-width: 527px) {
+    nav {
+        margin: 0%;
+         background-position: initial;
          
     }
 }
+
+@media (max-width: 527px) {
+    ul {
+        display: flex;
+         width: 10px;
+         margin: 0%;
+         padding: 0%;
+        
+    }
+}
+
+
+@media (max-width: 527px) {
+    li {
+        display: flex;
+        margin: 0%;
+        width: 100px;
+        background-position: initial;
+        font-size: 15px;
+        width: 85px;
+        
+    }
+}
+
+
+
 
 
 
@@ -172,7 +200,7 @@ display: grid;
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 527px) {
     .grid-area {
         display: flex;
         flex-direction: column;
@@ -222,12 +250,30 @@ table {
     background-position: center;
  }
 
+ 
+@media (max-width: 527px) {
+    .flex-recetas{
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+    }
+ .box-recetas {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+         
+    }
+}
+
+
 /* ----------------contacto --------------------*/
 
 fieldset { 
     background-image: url(../mult/form2.jpg);
     background-size: cover;
 }
+
+
 
 /*------------------ footer -------------------*/
 .flex-footer {
@@ -243,3 +289,15 @@ fieldset {
         background-position: center;
         margin: 120px;
     }
+
+    @media (max-width: 527px) {
+        .box-footer {
+            display: flex;
+            width: 10px;
+            margin: 30px;
+       }
+        .flex-footer {
+        display: flex;
+        width: 20px;
+   }
+}
