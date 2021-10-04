@@ -1,13 +1,29 @@
-header {
-    width: 100%;
-}
+body {
+  
+    background-position: center;
+ 
+    text-align: center;
+ 
+ }
+ 
+ html {
+     font-size: 100%;
+     font-family: 'Roboto', sans-serif;
+     background-image: url(../mult/flores2.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 600px / (2);
+     padding: 12%;
+ 
+ }
+
+
 
 .logo { 
-    width: 150px;
-    margin: auto;
+    width: 10px;
     background-position: center;
     border-radius: 50%;
-    background-size: contain;
+    text-align: center
     
 }
 
@@ -26,7 +42,7 @@ nav {
      
      li {
         border: 2px solid  white;
-        width: 1400px;
+        width: 700px * 2;
         height: 50px;
         padding: 10px;
         background-image: url(../mult/rosa-resumen-antecedentes-lineas-verticales-diseno-grafico-vectorial_1164-1438.jpg);
@@ -40,3 +56,57 @@ nav {
      }}
     }
     }
+
+    .Productos { 
+        display: grid;
+        grid-template-rows: auto;
+      
+        
+    
+    
+    .grid-area {
+    display: grid;
+        grid-template-areas:
+         "header header header"
+         "main main main"
+         "footer footer footer";
+       grid-template-columns: repeat(3, 2fr);
+       gap: 10px;
+     color: salmon;
+       
+    
+    
+    .grid-area {
+       text-align: center;
+       font-size: 15px;
+
+    
+    
+    .grid-img{
+    
+        border: 1px solid salmon;
+    
+    
+    }}}}
+
+    $boxRepsonsive: 527px;
+
+
+    fieldset { 
+        background-image: url(../mult//form2.jpg);
+        background-size: cover;
+    }
+
+    .flex-footer {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    
+        
+        
+        .box-footer {
+            background-position: center;
+            margin: 120px;
+        }}

@@ -1,13 +1,23 @@
-header {
-  width: 100%;
+body {
+  background-position: center;
+  text-align: center;
+}
+
+html {
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../mult/flores2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 12%;
 }
 
 .logo {
-  width: 150px;
-  margin: auto;
+  width: 10px;
   background-position: center;
   border-radius: 50%;
-  background-size: contain;
+  text-align: center;
 }
 
 nav {
@@ -52,5 +62,56 @@ nav ul li {
 
 nav ul li a {
   color: black;
+}
+
+.Productos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.Productos .grid-area {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "main main main" "footer footer footer";
+  -ms-grid-columns: (2fr)[3];
+      grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  color: salmon;
+}
+
+.Productos .grid-area .grid-area {
+  text-align: center;
+  font-size: 15px;
+}
+
+.Productos .grid-area .grid-area .grid-img {
+  border: 1px solid salmon;
+}
+
+fieldset {
+  background-image: url(../mult//form2.jpg);
+  background-size: cover;
+}
+
+.flex-footer {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.flex-footer .box-footer {
+  background-position: center;
+  margin: 120px;
 }
 /*# sourceMappingURL=style.css.map */
