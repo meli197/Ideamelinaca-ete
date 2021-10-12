@@ -26,7 +26,7 @@ html {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        padding: 7%;
+        padding: 30px 50px 30px 33px;
     }
     
     
@@ -91,7 +91,7 @@ a{
 @media (max-width: 576px) {
     ul {
         display: flex;
-         width: 15px;
+         width: 14px;
          margin: 0%;
          padding: 0%;
         
@@ -102,11 +102,11 @@ a{
 @media (max-width: 576px) {
     li {
         display: flex;
-        margin: 1px;
-        width: 100px;
-        background-position: initial;
-        font-size: 14px;
+        margin: 2px;
         width: 200px;
+        background-position: initial;
+        font-size: 15px;
+
         
     }
 }
@@ -347,14 +347,14 @@ fieldset {
     
     .box-footer {
         background-position: center;
-        margin: 120px;
+        margin: 130px;
     }
 
     @media (max-width: 576px) {
         .box-footer {
             display: flex;
             width: 10px;
-            margin: 35px;
+            margin: 39px;
        }
         .flex-footer {
         display: flex;
