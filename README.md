@@ -7,7 +7,7 @@ Para realizarlo use varias de las técnicas vistas en clase como flex, grids, fr
 
 También hice la versión responsive de la página tomando como referencia la medida standar de bootstrap 540px.
 
-Ademas del repositorio el proyecto esta cargado al servidor de Github pages https://meli197.github.io/.
+Ademas del repositorio el proyecto esta cargado al servidor de Github pages https://meli197.github.io/Ideamelinaca-ete/.
 
 Espero que les guste y puedan disfrutarlo tantoo como yo lo haciendolo!
 
