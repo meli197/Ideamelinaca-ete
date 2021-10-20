@@ -26,7 +26,20 @@ html {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        padding: 30px 50px 30px 33px;
+        padding: 5% 10% 5% 6%;
+    }
+    
+    
+}
+
+@media (max-width:480px) {
+    html {
+        background-image: url(../mult/flores2.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 5% 10% 5% 6%;
     }
     
     
@@ -91,7 +104,7 @@ a{
 @media (max-width: 576px) {
     ul {
         display: flex;
-         width: 14px;
+         width: 60%;
          margin: 0%;
          padding: 0%;
         
@@ -102,10 +115,10 @@ a{
 @media (max-width: 576px) {
     li {
         display: flex;
-        margin: 2px;
-        width: 200px;
+        margin: 1%;
+        width: 40%;
         background-position: initial;
-        font-size: 15px;
+        font-size: 14px;
 
         
     }
@@ -337,7 +350,7 @@ fieldset {
 
 /*------------------ footer -------------------*/
 .flex-footer {
-    padding: 10px;
+    padding: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -347,17 +360,17 @@ fieldset {
     
     .box-footer {
         background-position: center;
-        margin: 130px;
+        margin: 8%;
     }
 
     @media (max-width: 576px) {
         .box-footer {
             display: flex;
-            width: 10px;
-            margin: 39px;
+            width: 10%;
+            margin: 20%;
        }
         .flex-footer {
         display: flex;
-        width: 20px;
+        width: 40%;
    }
 }
